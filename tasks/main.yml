@@ -1,0 +1,11 @@
+---
+
+# Install
+- import_tasks: install.yml
+  tags:
+    - manala_cloud_init
+
+# Configs
+- import_tasks: configs.yml
+  tags:
+    - manala_cloud_init
